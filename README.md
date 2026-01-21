@@ -4,13 +4,14 @@
 
 Containerized dedicated server for easy deployments.
 
-### You can get a copy of the game for free by just Googling 'classicoffensive download'
-
 > [!CAUTION]
-> Use leaked versions of the game at your own risk!
+> You need to get **archived** game files by your own
 
-> [!WARNING]
-> Mount a volume on ```/srcds``` to preserve customizations!
+> [!IMPORTANT]
+> Verify your game files with SHA256
+> 
+> ```a4479cac1f12d75672b40460806e20a49836cc92c03533bafb62f33cd72bc48f  Classic Offensive.zip```
+
 
 Example:
 ```bash
@@ -28,3 +29,5 @@ TICKRATE=128
 PORT=27015
 CSCO_URL= # OPTIONAL: Provide a URL to download Classic_Offensive.zip (Leaked version)
 ```
+> [!WARNING]
+> Mount a volume on ```/srcds``` to preserve customizations!
